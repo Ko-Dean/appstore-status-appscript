@@ -25,7 +25,8 @@
    - https://script.google.com/home/start 로 들어가서 
 
 2. **스크립트 코드 붙여넣기**
-   - index.gs의 코드를 복사하여 Google App Script 편집기에 붙여넣습니다.
+   - https://github.com/Ko-Dean/appstore-status-appscript/blob/main/index.gs
+   - 코드를 복사하여 Google App Script 편집기에 붙여넣습니다.
    - 그리고 ```var slackWebhookUrl = 'slack webhook url; // 발급받은 Slack Webhook URL로 변경해주세요.``` 이 부분을 찾아서 0에서 발급 받은 url로 변경해줍니다.
 
 3. **트리거 설정**
