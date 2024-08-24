@@ -69,17 +69,17 @@ function getStatusMessage(subject) {
 
 // 상태 메시지를 매핑하는 함수
 function mapStatusMessage(statusMessage) {
-    const statusMapping = {
-        "Waiting for Review": "대기 중",
-        "Ready for Distribution": "배포 준비 완료",
-        "Pre-Order Ready for Sale" : "사전 주문 판매 준비 완료",
-        "Pending Developer Release" : "보류 중인 개발자 릴리스",
+   const statusMapping = {
+        "Ready For Review": "심사 제출 대기중",
+        "Waiting for Review": "심사 대기 중",
+        "Invalid Binary" : "잘못된 바이너리",
         "Metadata Rejected" : "메타 데이터 거부",
         "Rejected": "거절됨",
         "Developer Rejected": "개발자 취소",
-        "Ready For Review": "심사 대기중",
         "In Review": "심사 중",
         "Ready for Sale": "출시 대기 중",
+        "Pending Developer Release" : "개발자 출시 대기중",
+        "Ready for Distribution": "배포 준비 완료",
         "Prepare for Submission": "제출 준비 중"
     };
 
