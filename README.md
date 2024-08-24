@@ -12,6 +12,7 @@
 
 ## 상태 정의
 코드 상에 정의된 상태는 다음과 같습니다.
+  ```javascript
    const statusMapping = {
         "Ready For Review": "심사 제출 대기중",
         "Waiting for Review": "심사 대기 중",
@@ -25,7 +26,7 @@
         "Ready for Distribution": "배포 준비 완료",
         "Prepare for Submission": "제출 준비 중"
     };
-  
+  ```
 https://developer.apple.com/help/app-store-connect/reference/app-and-submission-statuses/ 에서 AppStore submission statuses 더 많은 상태값을 확인할 수 있습니다. 
   
 ## 기능
